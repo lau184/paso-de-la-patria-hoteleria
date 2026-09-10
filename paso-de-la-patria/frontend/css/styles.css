@@ -49,7 +49,7 @@ h1, h2, h3 {
 }
 
 header {
-    background-color: var(--blanco);
+    background-color: var(--rosa-suave);
     box-shadow: 0 4px 20px rgba(0,0,0,0.06);
     position: sticky;
     top: 0;
@@ -122,9 +122,8 @@ nav {
 .hero-portal {
     position: relative;
     height: 80vh;
-    /* La barra / al inicio le dice al navegador que busque desde la raíz del proyecto */
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-                url('/img/portada.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+                url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Entrada_Paso_de_la_Patria.jpg/1280px-Entrada_Paso_de_la_Patria.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,11 +134,11 @@ nav {
 
 .hero-box {
     max-width: 900px;
-    background: rgba(0, 0, 0, 0.45);
-    backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
     padding: 3.5rem 2.5rem;
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .hero-tag {

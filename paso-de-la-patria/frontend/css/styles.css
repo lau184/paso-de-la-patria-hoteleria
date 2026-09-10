@@ -72,14 +72,15 @@ nav {
 }
 
 .brand-logo-slot {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid var(--fucsia-oficial);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--blanco);
 }
 
 .logo-img {
@@ -117,10 +118,11 @@ nav {
     text-transform: uppercase;
 }
 
+/* Portada con foto de Paso de la Patria */
 .hero-portal {
     position: relative;
     height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
                 url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Entrada_Paso_de_la_Patria.jpg/1280px-Entrada_Paso_de_la_Patria.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
@@ -132,8 +134,8 @@ nav {
 
 .hero-box {
     max-width: 900px;
-    background: rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(6px);
     padding: 3.5rem 2.5rem;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -155,6 +157,13 @@ nav {
     font-size: 3.2rem;
     font-weight: 800;
     margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.hero-box p {
+    font-size: 1.1rem;
+    margin-bottom: 1.8rem;
+    color: #f1f1f1;
 }
 
 .btn-oficial {

@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     cargarAlojamientos();
 });
 
+// Número de teléfono de contacto centralizado
+const NUMERO_WHATSAPP = '5493624755016';
+
 async function cargarPesca() {
     const container = document.getElementById('pesca-grid-container');
     try {
@@ -22,7 +25,7 @@ async function cargarPesca() {
                         <div class="card-chips">
                             ${p.detalles.map(d => `<span class="chip">${d}</span>`).join('')}
                         </div>
-                        <a href="https://wa.me/5493794000000?text=${encodeURIComponent('Hola! Quisiera información sobre: ' + p.titulo)}" target="_blank" class="btn-oficial" style="text-align:center;">
+                        <a href="https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent('Hola! Quisiera información sobre: ' + p.titulo)}" target="_blank" class="btn-oficial" style="text-align:center;">
                             Consultar Guía
                         </a>
                     </div>
@@ -42,7 +45,7 @@ async function cargarAlojamientos() {
 
         if (result.success && result.data) {
             container.innerHTML = result.data.map(a => {
-                const waLink = `https://wa.me/5493794000000?text=${encodeURIComponent(a.whatsappMsg)}`;
+                const waLink = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(a.whatsappMsg)}`;
                 return `
                     <div class="card-item">
                         <div class="card-image">

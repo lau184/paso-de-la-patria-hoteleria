@@ -118,12 +118,12 @@ nav {
     text-transform: uppercase;
 }
 
-/* Portada con foto de Paso de la Patria */
+/* Portada con foto local del arco de Paso de la Patria */
 .hero-portal {
     position: relative;
     height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Entrada_Paso_de_la_Patria.jpg/1280px-Entrada_Paso_de_la_Patria.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                url('../img/portada.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;

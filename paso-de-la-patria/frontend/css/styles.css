@@ -122,8 +122,9 @@ nav {
 .hero-portal {
     position: relative;
     height: 80vh;
+    /* La barra / al inicio le dice al navegador que busque desde la raíz del proyecto */
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-                url('../img/portada.jpg') center/cover no-repeat;
+                url('/img/portada.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;

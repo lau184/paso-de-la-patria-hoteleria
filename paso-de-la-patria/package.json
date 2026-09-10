@@ -1,0 +1,18 @@
+{
+  "name": "paso-de-la-patria-turismo",
+  "version": "1.0.0",
+  "description": "Sitio web de Alojamientos y Guías de Pesca estilo Portal Oficial de Turismo Paso de la Patria",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

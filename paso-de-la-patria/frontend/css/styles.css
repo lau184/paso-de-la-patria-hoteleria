@@ -118,27 +118,27 @@ nav {
     text-transform: uppercase;
 }
 
-/* Portada con foto local del arco de Paso de la Patria */
+/* Portada con fondo degradado rosado y sin imágenes de fondo */
 .hero-portal {
     position: relative;
-    height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-                url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Entrada_Paso_de_la_Patria.jpg/1280px-Entrada_Paso_de_la_Patria.jpg') center/cover no-repeat;
+    height: 75vh;
+    background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 50%, #f48fb1 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--blanco);
     padding: 0 1.5rem;
 }
 
+/* Recuadro central con fondo rosado claro semi-transparente */
 .hero-box {
     max-width: 900px;
-    background: rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(8px);
     padding: 3.5rem 2.5rem;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 24px;
+    border: 2px solid rgba(216, 27, 96, 0.2);
+    box-shadow: 0 15px 35px rgba(216, 27, 96, 0.1);
 }
 
 .hero-tag {
@@ -157,13 +157,14 @@ nav {
     font-size: 3.2rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: var(--fucsia-oscuro);
 }
 
 .hero-box p {
     font-size: 1.1rem;
     margin-bottom: 1.8rem;
-    color: #f1f1f1;
+    color: var(--texto-suave);
+    font-weight: 500;
 }
 
 .btn-oficial {
@@ -177,6 +178,7 @@ nav {
     text-transform: uppercase;
     display: inline-block;
     border: none;
+    box-shadow: 0 4px 15px rgba(216, 27, 96, 0.3);
 }
 
 .banner-frase {
